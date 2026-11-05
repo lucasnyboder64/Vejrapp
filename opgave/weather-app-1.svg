@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" fill="none">
+  <defs>
+    <linearGradient id="background" x1="1440" y1="0" x2="0" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F6FF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="376" y1="263" x2="1097" y2="643" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2559C7"/>
+      <stop offset="1" stop-color="#4F86E8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="1018" y1="329" x2="1115" y2="426" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7A3"/>
+      <stop offset="1" stop-color="#FFB84D"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#183A75" flood-opacity=".08"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="1024" fill="url(#background)"/>
+  <circle cx="1274" cy="72" r="220" fill="#DCE9FF" fill-opacity=".4"/>
+  <circle cx="1378" cy="101" r="135" fill="#E8F0FF" fill-opacity=".65"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect x="112" y="48" width="48" height="48" rx="16" fill="#2458C7"/>
+      <path d="M124 73.5c0-6.1 4.9-11 11-11 4.4 0 8.2 2.6 9.9 6.4 4.3.2 7.7 3.8 7.7 8.1 0 4.6-3.7 8.3-8.3 8.3h-18.2a8.3 8.3 0 0 1-2.1-16.3Z" fill="#fff"/>
+      <circle cx="143" cy="59" r="5" fill="#FFD47A"/>
+      <text x="174" y="69" fill="#172B4D" font-size="21" font-weight="750">Vejrblik</text>
+      <text x="174" y="89" fill="#7890B2" font-size="12" font-weight="500" letter-spacing="1.1">DIT LOKALE VEJR</text>
+      <text x="1177" y="77" fill="#607795" font-size="14" font-weight="550">Dansk vejr · °C</text>
+      <circle cx="1148" cy="72" r="17" fill="#E4EDFC"/>
+      <path d="M1148 63v18M1139 72h18M1141.6 65.6l12.8 12.8M1154.4 65.6l-12.8 12.8" stroke="#5279B7" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+
+    <text x="112" y="164" fill="#172B4D" font-size="34" font-weight="750" letter-spacing="-1">Hvordan er vejret?</text>
+    <text x="112" y="193" fill="#7185A1" font-size="16" font-weight="450">Søg efter en by, og få det aktuelle vejr med det samme.</text>
+
+    <g filter="url(#cardShadow)">
+      <rect x="112" y="220" width="1216" height="64" rx="18" fill="#FFFFFF"/>
+    </g>
+    <circle cx="145" cy="252" r="9" stroke="#8095B3" stroke-width="2"/>
+    <path d="m151.5 258.5 6 6" stroke="#8095B3" stroke-width="2" stroke-linecap="round"/>
+    <text x="174" y="258" fill="#9BAAC0" font-size="16">Skriv en by, fx København</text>
+    <rect x="1151" y="228" width="165" height="48" rx="13" fill="#2458C7"/>
+    <circle cx="1180" cy="252" r="7" stroke="#FFFFFF" stroke-width="1.8"/>
+    <path d="m1185 257 4.5 4.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="1199" y="257" fill="#FFFFFF" font-size="15" font-weight="650">Søg vejr</text>
+
+    <text x="112" y="335" fill="#172B4D" font-size="18" font-weight="700">Aktuelt vejr</text>
+    <text x="1212" y="335" fill="#8092AA" font-size="13" font-weight="500">OPDATERET LIGE NU</text>
+    <circle cx="1195" cy="330" r="3" fill="#41B883"/>
+
+    <g filter="url(#cardShadow)">
+      <rect x="112" y="357" width="1216" height="292" rx="28" fill="url(#hero)"/>
+    </g>
+    <circle cx="1140" cy="383" r="144" fill="#FFFFFF" fill-opacity=".045"/>
+    <circle cx="1176" cy="600" r="187" fill="#FFFFFF" fill-opacity=".035"/>
+    <path d="M113 610c212-71 333 35 538-9 206-44 398-47 677 5v43H112v-39Z" fill="#FFFFFF" fill-opacity=".035"/>
+    <text x="156" y="415" fill="#D8E6FF" font-size="14" font-weight="600" letter-spacing="1.4">DANMARK</text>
+    <text x="156" y="461" fill="#FFFFFF" font-size="32" font-weight="730" letter-spacing="-.5">København</text>
+    <path d="M157 484h11" stroke="#B8D1FF" stroke-width="2" stroke-linecap="round"/>
+    <text x="176" y="489" fill="#D8E6FF" font-size="14">Søndag · 1. november, 15:36</text>
+    <text x="156" y="569" fill="#FFFFFF" font-size="78" font-weight="650" letter-spacing="-4">18°</text>
+    <text x="160" y="605" fill="#DCE8FF" font-size="18" font-weight="500">Delvist skyet</text>
+    <text x="458" y="563" fill="#C5D8FC" font-size="14">Føles som</text>
+    <text x="458" y="591" fill="#FFFFFF" font-size="20" font-weight="650">17°</text>
+
+    <g>
+      <circle cx="1052" cy="433" r="43" fill="url(#sun)"/>
+      <path d="M958 468c0-17 13.8-30.8 30.8-30.8 12.3 0 22.9 7.3 27.8 17.8 12 .5 21.6 10.4 21.6 22.5 0 12.7-10.3 23-23 23h-50.5a23 23 0 0 1-5.8-45.3Z" fill="#FFFFFF"/>
+      <path d="M969 467c1.8-9 9.8-15.8 19.3-15.8 8.4 0 15.6 5.3 18.3 12.8" stroke="#EDF4FF" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <text x="1032" y="557" fill="#EAF1FF" font-size="13" font-weight="600" letter-spacing="1">HIMMELEN NU</text>
+    <text x="1032" y="583" fill="#FFFFFF" font-size="16" font-weight="600">Lidt sol mellem skyerne</text>
+    <rect x="156" y="618" width="8" height="8" rx="4" fill="#9CE6C0"/>
+    <text x="174" y="626" fill="#D9E7FF" font-size="12" font-weight="500">Vejrdata fra OpenWeather</text>
+
+    <text x="112" y="707" fill="#172B4D" font-size="20" font-weight="720">Vejrforhold</text>
+    <text x="112" y="731" fill="#8292A8" font-size="14">Flere detaljer om vejret i København</text>
+
+    <g filter="url(#cardShadow)">
+      <rect x="112" y="755" width="284" height="151" rx="20" fill="#FFFFFF"/>
+      <rect x="422" y="755" width="284" height="151" rx="20" fill="#FFFFFF"/>
+      <rect x="732" y="755" width="284" height="151" rx="20" fill="#FFFFFF"/>
+      <rect x="1042" y="755" width="286" height="151" rx="20" fill="#FFFFFF"/>
+    </g>
+
+    <g>
+      <rect x="136" y="779" width="40" height="40" rx="13" fill="#FFF4DF"/>
+      <path d="M156 789v10M156 806v1M148 798h-1M165 798h-1M150.3 792.3l-.7-.7M162.4 804.4l-.7-.7M162.4 792.3l.7-.7M150.3 804.4l.7-.7" stroke="#E7A432" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="156" cy="798" r="4" stroke="#E7A432" stroke-width="1.8"/>
+      <text x="189" y="796" fill="#7E8FA6" font-size="13" font-weight="550">FØLES SOM</text>
+      <text x="136" y="862" fill="#172B4D" font-size="31" font-weight="700">17°</text>
+      <text x="136" y="885" fill="#90A0B4" font-size="13">Behageligt lige nu</text>
+    </g>
+    <g>
+      <rect x="446" y="779" width="40" height="40" rx="13" fill="#EAF3FF"/>
+      <path d="M466 786c-4.1 6-7.5 9.7-7.5 14.1a7.5 7.5 0 1 0 15 0c0-4.4-3.4-8.1-7.5-14.1Z" stroke="#4384D8" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M463 802c.6 1.7 1.7 2.5 3.4 2.5" stroke="#4384D8" stroke-width="1.6" stroke-linecap="round"/>
+      <text x="499" y="796" fill="#7E8FA6" font-size="13" font-weight="550">LUFTFUGTIGHED</text>
+      <text x="446" y="862" fill="#172B4D" font-size="31" font-weight="700">68%</text>
+      <text x="446" y="885" fill="#90A0B4" font-size="13">Moderat luftfugtighed</text>
+    </g>
+    <g>
+      <rect x="756" y="779" width="40" height="40" rx="13" fill="#E9F7F1"/>
+      <path d="M765 793h17a4 4 0 1 0-3.8-5.2M762 799h20a4 4 0 1 1-3.8 5.2M767 805h11" stroke="#36A67B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="809" y="796" fill="#7E8FA6" font-size="13" font-weight="550">VIND</text>
+      <text x="756" y="862" fill="#172B4D" font-size="31" font-weight="700">4,2 <tspan font-size="16" font-weight="550">m/s</tspan></text>
+      <text x="756" y="885" fill="#90A0B4" font-size="13">Fra sydvest</text>
+    </g>
+    <g>
+      <rect x="1066" y="779" width="40" height="40" rx="13" fill="#F1EDFF"/>
+      <path d="M1086 787v22M1078 791h16M1078 805h16M1081 791v4h10v-4M1081 801v4h10v-4" stroke="#7761C7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1119" y="796" fill="#7E8FA6" font-size="13" font-weight="550">LUFTTRYK</text>
+      <text x="1066" y="862" fill="#172B4D" font-size="31" font-weight="700">1013 <tspan font-size="16" font-weight="550">hPa</tspan></text>
+      <text x="1066" y="885" fill="#90A0B4" font-size="13">Normalt lufttryk</text>
+    </g>
+
+    <text x="112" y="958" fill="#9AA9BC" font-size="12">Vejrdata leveres af OpenWeather · Temperatur vises i Celsius</text>
+    <text x="1244" y="958" fill="#9AA9BC" font-size="12" text-anchor="end">Vejrblik · 2026</text>
+  </g>
+</svg>

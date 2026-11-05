@@ -1,3 +1,5 @@
+![alt text](weather-app-1.svg)
+
 # Opgave: Byg en vejr-app med OpenWeather
 
 I denne opgave bygger du en React-app fra bunden, som lader brugeren søge efter en by og viser det aktuelle vejr. Du skal selv oprette projektets filer og forbinde komponenterne.
