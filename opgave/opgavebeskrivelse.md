@@ -1,4 +1,4 @@
-![alt text](weather-app-1.svg)
+![alt text](weather-app.svg)
 
 # Opgave: Byg en vejr-app med OpenWeather
 
